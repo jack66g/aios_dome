@@ -177,6 +177,78 @@ core/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aios_dome.dir/build.make CMakeFiles/aios_dome.dir/core/main.cpp.s
 .PHONY : core/main.cpp.s
 
+file/file_control.o: file/file_control.cpp.o
+.PHONY : file/file_control.o
+
+# target to build an object file
+file/file_control.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aios_dome.dir/build.make CMakeFiles/aios_dome.dir/file/file_control.cpp.o
+.PHONY : file/file_control.cpp.o
+
+file/file_control.i: file/file_control.cpp.i
+.PHONY : file/file_control.i
+
+# target to preprocess a source file
+file/file_control.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aios_dome.dir/build.make CMakeFiles/aios_dome.dir/file/file_control.cpp.i
+.PHONY : file/file_control.cpp.i
+
+file/file_control.s: file/file_control.cpp.s
+.PHONY : file/file_control.s
+
+# target to generate assembly for a file
+file/file_control.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aios_dome.dir/build.make CMakeFiles/aios_dome.dir/file/file_control.cpp.s
+.PHONY : file/file_control.cpp.s
+
+file/file_creator.o: file/file_creator.cpp.o
+.PHONY : file/file_creator.o
+
+# target to build an object file
+file/file_creator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aios_dome.dir/build.make CMakeFiles/aios_dome.dir/file/file_creator.cpp.o
+.PHONY : file/file_creator.cpp.o
+
+file/file_creator.i: file/file_creator.cpp.i
+.PHONY : file/file_creator.i
+
+# target to preprocess a source file
+file/file_creator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aios_dome.dir/build.make CMakeFiles/aios_dome.dir/file/file_creator.cpp.i
+.PHONY : file/file_creator.cpp.i
+
+file/file_creator.s: file/file_creator.cpp.s
+.PHONY : file/file_creator.s
+
+# target to generate assembly for a file
+file/file_creator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aios_dome.dir/build.make CMakeFiles/aios_dome.dir/file/file_creator.cpp.s
+.PHONY : file/file_creator.cpp.s
+
+file/file_monitor.o: file/file_monitor.cpp.o
+.PHONY : file/file_monitor.o
+
+# target to build an object file
+file/file_monitor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aios_dome.dir/build.make CMakeFiles/aios_dome.dir/file/file_monitor.cpp.o
+.PHONY : file/file_monitor.cpp.o
+
+file/file_monitor.i: file/file_monitor.cpp.i
+.PHONY : file/file_monitor.i
+
+# target to preprocess a source file
+file/file_monitor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aios_dome.dir/build.make CMakeFiles/aios_dome.dir/file/file_monitor.cpp.i
+.PHONY : file/file_monitor.cpp.i
+
+file/file_monitor.s: file/file_monitor.cpp.s
+.PHONY : file/file_monitor.s
+
+# target to generate assembly for a file
+file/file_monitor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aios_dome.dir/build.make CMakeFiles/aios_dome.dir/file/file_monitor.cpp.s
+.PHONY : file/file_monitor.cpp.s
+
 modules/cpu/cpu_control.o: modules/cpu/cpu_control.cpp.o
 .PHONY : modules/cpu/cpu_control.o
 
@@ -336,6 +408,15 @@ help:
 	@echo "... core/main.o"
 	@echo "... core/main.i"
 	@echo "... core/main.s"
+	@echo "... file/file_control.o"
+	@echo "... file/file_control.i"
+	@echo "... file/file_control.s"
+	@echo "... file/file_creator.o"
+	@echo "... file/file_creator.i"
+	@echo "... file/file_creator.s"
+	@echo "... file/file_monitor.o"
+	@echo "... file/file_monitor.i"
+	@echo "... file/file_monitor.s"
 	@echo "... modules/cpu/cpu_control.o"
 	@echo "... modules/cpu/cpu_control.i"
 	@echo "... modules/cpu/cpu_control.s"

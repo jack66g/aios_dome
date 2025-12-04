@@ -81,12 +81,12 @@ clean: CMakeFiles/aios_dome.dir/clean
 CMakeFiles/aios_dome.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aios_dome.dir/build.make CMakeFiles/aios_dome.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aios_dome.dir/build.make CMakeFiles/aios_dome.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ubuntu/桌面/aios_dome/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target aios_dome"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ubuntu/桌面/aios_dome/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target aios_dome"
 .PHONY : CMakeFiles/aios_dome.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/aios_dome.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/桌面/aios_dome/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/桌面/aios_dome/build/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/aios_dome.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/桌面/aios_dome/build/CMakeFiles 0
 .PHONY : CMakeFiles/aios_dome.dir/rule

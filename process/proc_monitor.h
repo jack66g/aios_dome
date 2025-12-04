@@ -1,6 +1,6 @@
 /**
  * @file proc_monitor.h
- * @brief 进程监控模块
+ * @brief 进程监控模块 (升级版：支持新进程检测与异常检测)
  */
 
 #ifndef PROC_MONITOR_H
@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <set> // 引入 set 用于快速查找 PID
 
 // 定义进程信息的结构体
 struct ProcessInfo {
@@ -37,18 +37,28 @@ public:
      */
     int findPidByName(const std::string& processName);
 
-    /**
-     * @brief 检测是否有新启动的进程 (模拟“用户打开一个进程就报告”)
-     * @details 通过对比上一次的快照
-     * @return 新增进程的描述字符串
+   /**
+     * @brief 检测是否有新启动的进程
+     * @details 对比上一刻的 PID 列表，找出新增的 PID
+     * @return 包含新进程信息的字符串报告
      */
     std::string detectNewProcesses();
 
+    /**
+     * @brief 检测异常高占用进程
+     * @param threshold CPU占用阈值 (例如 80.0)
+     * @return 异常进程报告
+     */
+    std::string detectAbnormalProcesses(double threshold = 80.0);
+
 private:
-    std::vector<int> lastPidList; // 上一次扫描到的所有 PID
+    std::set<int> lastPidSet; // 使用 set 存储上一次的 PID，查询速度比 vector 快
     
     // 获取当前所有 PID 的辅助函数
     std::vector<int> getAllPids();
+    
+    // 获取进程名称的辅助函数 (读取 /proc/[pid]/comm)
+    std::string getProcessName(int pid);
 };
 
 #endif // PROC_MONITOR_H

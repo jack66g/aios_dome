@@ -1,0 +1,1 @@
+2023-07-10 14:30:50 INFO Application started at port 8080.

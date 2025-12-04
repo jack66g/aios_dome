@@ -181,6 +181,48 @@ CMakeFiles/aios_dome.dir/process/proc_control.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aios_dome.dir/process/proc_control.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/桌面/aios_dome/process/proc_control.cpp -o CMakeFiles/aios_dome.dir/process/proc_control.cpp.s
 
+CMakeFiles/aios_dome.dir/file/file_monitor.cpp.o: CMakeFiles/aios_dome.dir/flags.make
+CMakeFiles/aios_dome.dir/file/file_monitor.cpp.o: /home/ubuntu/桌面/aios_dome/file/file_monitor.cpp
+CMakeFiles/aios_dome.dir/file/file_monitor.cpp.o: CMakeFiles/aios_dome.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/桌面/aios_dome/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/aios_dome.dir/file/file_monitor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/aios_dome.dir/file/file_monitor.cpp.o -MF CMakeFiles/aios_dome.dir/file/file_monitor.cpp.o.d -o CMakeFiles/aios_dome.dir/file/file_monitor.cpp.o -c /home/ubuntu/桌面/aios_dome/file/file_monitor.cpp
+
+CMakeFiles/aios_dome.dir/file/file_monitor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aios_dome.dir/file/file_monitor.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/桌面/aios_dome/file/file_monitor.cpp > CMakeFiles/aios_dome.dir/file/file_monitor.cpp.i
+
+CMakeFiles/aios_dome.dir/file/file_monitor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aios_dome.dir/file/file_monitor.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/桌面/aios_dome/file/file_monitor.cpp -o CMakeFiles/aios_dome.dir/file/file_monitor.cpp.s
+
+CMakeFiles/aios_dome.dir/file/file_control.cpp.o: CMakeFiles/aios_dome.dir/flags.make
+CMakeFiles/aios_dome.dir/file/file_control.cpp.o: /home/ubuntu/桌面/aios_dome/file/file_control.cpp
+CMakeFiles/aios_dome.dir/file/file_control.cpp.o: CMakeFiles/aios_dome.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/桌面/aios_dome/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/aios_dome.dir/file/file_control.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/aios_dome.dir/file/file_control.cpp.o -MF CMakeFiles/aios_dome.dir/file/file_control.cpp.o.d -o CMakeFiles/aios_dome.dir/file/file_control.cpp.o -c /home/ubuntu/桌面/aios_dome/file/file_control.cpp
+
+CMakeFiles/aios_dome.dir/file/file_control.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aios_dome.dir/file/file_control.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/桌面/aios_dome/file/file_control.cpp > CMakeFiles/aios_dome.dir/file/file_control.cpp.i
+
+CMakeFiles/aios_dome.dir/file/file_control.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aios_dome.dir/file/file_control.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/桌面/aios_dome/file/file_control.cpp -o CMakeFiles/aios_dome.dir/file/file_control.cpp.s
+
+CMakeFiles/aios_dome.dir/file/file_creator.cpp.o: CMakeFiles/aios_dome.dir/flags.make
+CMakeFiles/aios_dome.dir/file/file_creator.cpp.o: /home/ubuntu/桌面/aios_dome/file/file_creator.cpp
+CMakeFiles/aios_dome.dir/file/file_creator.cpp.o: CMakeFiles/aios_dome.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/桌面/aios_dome/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/aios_dome.dir/file/file_creator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/aios_dome.dir/file/file_creator.cpp.o -MF CMakeFiles/aios_dome.dir/file/file_creator.cpp.o.d -o CMakeFiles/aios_dome.dir/file/file_creator.cpp.o -c /home/ubuntu/桌面/aios_dome/file/file_creator.cpp
+
+CMakeFiles/aios_dome.dir/file/file_creator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aios_dome.dir/file/file_creator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/桌面/aios_dome/file/file_creator.cpp > CMakeFiles/aios_dome.dir/file/file_creator.cpp.i
+
+CMakeFiles/aios_dome.dir/file/file_creator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aios_dome.dir/file/file_creator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/桌面/aios_dome/file/file_creator.cpp -o CMakeFiles/aios_dome.dir/file/file_creator.cpp.s
+
 # Object files for target aios_dome
 aios_dome_OBJECTS = \
 "CMakeFiles/aios_dome.dir/core/main.cpp.o" \
@@ -190,7 +232,10 @@ aios_dome_OBJECTS = \
 "CMakeFiles/aios_dome.dir/modules/memory/mem_monitor.cpp.o" \
 "CMakeFiles/aios_dome.dir/modules/memory/mem_control.cpp.o" \
 "CMakeFiles/aios_dome.dir/process/proc_monitor.cpp.o" \
-"CMakeFiles/aios_dome.dir/process/proc_control.cpp.o"
+"CMakeFiles/aios_dome.dir/process/proc_control.cpp.o" \
+"CMakeFiles/aios_dome.dir/file/file_monitor.cpp.o" \
+"CMakeFiles/aios_dome.dir/file/file_control.cpp.o" \
+"CMakeFiles/aios_dome.dir/file/file_creator.cpp.o"
 
 # External object files for target aios_dome
 aios_dome_EXTERNAL_OBJECTS =
@@ -203,9 +248,12 @@ aios_dome: CMakeFiles/aios_dome.dir/modules/memory/mem_monitor.cpp.o
 aios_dome: CMakeFiles/aios_dome.dir/modules/memory/mem_control.cpp.o
 aios_dome: CMakeFiles/aios_dome.dir/process/proc_monitor.cpp.o
 aios_dome: CMakeFiles/aios_dome.dir/process/proc_control.cpp.o
+aios_dome: CMakeFiles/aios_dome.dir/file/file_monitor.cpp.o
+aios_dome: CMakeFiles/aios_dome.dir/file/file_control.cpp.o
+aios_dome: CMakeFiles/aios_dome.dir/file/file_creator.cpp.o
 aios_dome: CMakeFiles/aios_dome.dir/build.make
 aios_dome: CMakeFiles/aios_dome.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ubuntu/桌面/aios_dome/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable aios_dome"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ubuntu/桌面/aios_dome/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable aios_dome"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aios_dome.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

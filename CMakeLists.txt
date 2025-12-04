@@ -27,6 +27,9 @@ set(SOURCES
     modules/memory/mem_control.cpp
     process/proc_monitor.cpp
     process/proc_control.cpp
+    file/file_monitor.cpp
+    file/file_control.cpp
+    file/file_creator.cpp
     # 未来添加:
     # modules/cpu/cpu_control.cpp
     # modules/memory/mem_monitor.cpp
